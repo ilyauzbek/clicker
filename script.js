@@ -37,7 +37,7 @@ buyUpgrade.addEventListener('click' , () => {
 
 function showCoinValue(x,y, value) {
     const coinValueElem = document.createElement('div')
-    coinValueElem,innerText = `+${value}`
+    coinValueElem.innerText = `+${value}`
     coinValueElem.className = 'coin-value'
     coinValueElem.style.position = 'absolute'
     coinValueElem.style.left = `${x}px`
@@ -53,6 +53,6 @@ function showCoinValue(x,y, value) {
 
     setTimeout(() => {
         coinValueElem.remove()
-    }, 300);
+    }, 30000);
 }
 

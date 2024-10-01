@@ -52,4 +52,7 @@ body{
 
 .coin-value{
     transition: 1s;
+    width: 30px;
+    height: 30px;
+    font-size: 22px;
 }
