@@ -1,0 +1,55 @@
+body{
+    font-family: fantasy;
+    background-color: #1f1f11;
+    color: white;
+    margin: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 100dvh;
+}
+.game{
+    background-color: #2c2c2c;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 0 10px 0 rgba(255, 255, 255, 0.2);
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+
+}
+#coin{
+    width: 250px;
+    border-radius: 50%;
+    cursor: pointer;
+
+    &:active{
+        scale: 1.1;
+    }
+}
+#buyUpgrade{
+    padding: 20px;
+    font-family:fantasy;
+    font-size: 24px;
+    color: white;
+    background-color: #1f1f1f;
+    margin-top: 30px;
+
+    border-radius: 20px;
+    cursor: pointer;
+
+    transition: 0.4s;
+
+    &:hover{
+        box-shadow: 6px 6px 0 0 black ;
+    }
+}
+
+.coin-value{
+    transition: 1s;
+}
